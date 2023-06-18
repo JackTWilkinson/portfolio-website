@@ -1,0 +1,33 @@
+section {
+    height: 100vh;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  padding: 10px;
+}
+
+#navbar Link {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#navbar li {
+  display: inline;
+  padding-inline: 15px;
+}
+
+.content {
+    padding-top: 10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
