@@ -1,5 +1,4 @@
-import './styles/global.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar';
 import Title from './pages/title';
 import About from './pages/about';
 import WorkExperience from './pages/work-experience';
@@ -15,7 +14,7 @@ const index: React.FunctionComponent<IndexProps> = () => {
       <header>
         <Navbar />
       </header>
-      <div>
+      <body className='pt-5'>
         <section id="title">
           <Title />
         </section>
@@ -25,7 +24,7 @@ const index: React.FunctionComponent<IndexProps> = () => {
         <section id="work-experience">
           <WorkExperience />
         </section>
-      </div>
+      </body>
       {/* <Projects /> */}
     </>
   )
