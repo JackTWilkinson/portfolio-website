@@ -30,6 +30,9 @@ export default function Navbar() {
                  <li>
                      <Link href="#about">About</Link>
                  </li>
+                 <li>
+                     <Link href="#work-experience">Work Experience</Link>
+                 </li>
              </ul>
          </div>
     )
