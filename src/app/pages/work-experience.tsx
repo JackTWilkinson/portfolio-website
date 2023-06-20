@@ -9,8 +9,8 @@ const WorkExperience = () => {
               Software Engineer @ Principal Financial
             </div> 
             <div className="collapse-content"> 
-              <p></p>
-                I have been working at principal for a year now and use the following languages: 
+              <p>
+                I have been working at principal for a year now and use the following 
                 <span className="badge badge-outline">Salesforce</span>
                 <span className="badge badge-outline">Java</span>
                 <span className="badge badge-outline">React</span>
