@@ -14,7 +14,7 @@ const index: React.FunctionComponent<IndexProps> = () => {
       <header>
         <Navbar />
       </header>
-      <body className='pt-5'>
+      <body>
         <section id="title">
           <Title />
         </section>
