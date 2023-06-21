@@ -24,8 +24,10 @@ const index: React.FunctionComponent<IndexProps> = () => {
         <section id="work-experience">
           <WorkExperience />
         </section>
+        <section>
+          {/* <Projects /> */}
+        </section>
       </body>
-      {/* <Projects /> */}
     </>
   )
 }

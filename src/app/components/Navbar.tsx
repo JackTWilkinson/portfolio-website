@@ -25,7 +25,7 @@ export default function Navbar() {
     }
     
     return(
-         <div id='navbar' className={'' + fix ? 'sticky' : ''}>
+         <div id='navbar' className={fix ? 'sticky' : ''}>
              <ul>
                  <li>
                      <Link href="#title">Title</Link>
