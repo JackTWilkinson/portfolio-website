@@ -1,13 +1,14 @@
 export type WorkExperienceProps = {
     title: string;
     description: string;
-    languages: Array<string>;
+    tools: Array<string>;
+    dates_worked: Array<string>;
 };
 
 const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperienceProps) => {
     return (
         <>
-            <div className="collapse w-96 border rounded-box border-base-300 collapse-arrow">
+            <div className="collapse w-96 bg-orange-600 border-black rounded-box border-base-300 collapse-arrow">
               <input type="checkbox"/> 
               <div className="collapse-title text-xl font-medium">
                 { props.title }
@@ -16,11 +17,24 @@ const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperience
                 <p>
                   { props.description }
                   <br/>
-                  {
-                    // languages.map((language) => (
-                    //     <span className="badge badge-outline"> {language} </span>
-                    // ))
-                  }
+                  <div className="flex flex-row">
+                    {
+                      props.tools.map((tool, index) => (
+                          <div className="px-1" key={index}>
+                            <span className="badge badge-outline"> {tool} </span>
+                          </div>
+                      ))
+                    }
+                  </div>
+                  <div>
+                    {
+                      props.dates_worked.map((date, index) => (
+                          <div key={index}>
+                            <p> {date} </p>
+                          </div>
+                      ))
+                    }
+                  </div>
                 </p>
               </div>
             </div>

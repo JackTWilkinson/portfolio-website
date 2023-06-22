@@ -1,0 +1,51 @@
+[{
+    "title": "Software Engineer @ Principal Financial",
+    "description": "I've been writing software at Principal for about a year",
+    "tools": [
+        "Java",
+        "Salesforce",
+        "React"
+    ],
+    "dates_worked": [
+        "1/1/1111"
+    ]
+},
+{
+    "title": "Web Developer @ Iowa State University",
+    "description": "I wrote software for a summer and half a semester",
+    "tools": [
+        "Javascript",
+        "PHP"
+    ],
+    "dates_worked": [
+        "1/1/1111",
+        "1/2/1111"
+    ]
+},
+{
+    "title": "Software Engineering Intern @ Hy-Vee",
+    "description": "I've been writing software at Principal for about a year",
+    "tools": [
+        "React",
+        "Next.js",
+        "SQL",
+        "GraphQl"
+    ],
+    "dates_worked": [
+        "1/1/1111",
+        "1/2/1111",
+        "1/1/1112",
+        "1/2/1112"
+    ]
+},
+{
+    "title": "Object-Oriented Programming Teaching Assistant @ Iowa State University",
+    "description": "I've been writing software at Principal for about a year",
+    "tools": [
+        "Java"
+    ],
+    "dates_worked": [
+        "1/1/1111",
+        "1/2/1111"
+    ]
+}]
