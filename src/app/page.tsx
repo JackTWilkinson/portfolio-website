@@ -1,9 +1,9 @@
 import Navbar from './components/navbar';
 import Title from './pages/title';
 import About from './pages/about';
-import WorkExperience from './pages/work-experience';
+import WorkExperienceList from './pages/work-experience-list';
 
-export interface IndexProps {
+export type IndexProps = {
  
 }
 
@@ -22,7 +22,7 @@ const index: React.FunctionComponent<IndexProps> = () => {
           <About />
         </section>
         <section id="work-experience">
-          <WorkExperience />
+          <WorkExperienceList />
         </section>
         <section>
           {/* <Projects /> */}
