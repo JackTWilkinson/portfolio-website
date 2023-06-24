@@ -3,11 +3,9 @@ import Title from './pages/title';
 import About from './pages/about';
 import WorkExperienceList from './pages/work-experience-list';
 
-export type IndexProps = {
- 
-}
+export type IndexProps = {}
 
-const index: React.FunctionComponent<IndexProps> = () => {
+const Index: React.FunctionComponent<IndexProps> = () => {
 
   return(
     <>
@@ -24,12 +22,12 @@ const index: React.FunctionComponent<IndexProps> = () => {
         <section id="work-experience">
           <WorkExperienceList />
         </section>
-        <section>
-          {/* <Projects /> */}
-        </section>
+        {/* <section>
+          <Projects />
+        </section> */}
       </body>
     </>
   )
 }
 
-export default index
+export default Index

@@ -1,10 +1,14 @@
-const about = () => {
+export type AboutProps = {};
+
+const About: React.FunctionComponent<AboutProps> = () => {
 
     return(
         <>
-            <h1>Im a software Engineer</h1>
+            <div className="flex items-center justify-center">
+                <p className="text-5xl">Im a software Engineer</p>
+            </div>
         </>
     )
   }
   
-  export default about
+  export default About

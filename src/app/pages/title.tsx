@@ -1,10 +1,19 @@
-const title = () => {
+export type TitleProps = {};
+
+const Title: React.FunctionComponent<TitleProps> = () => {
 
     return(
         <>
-            <h1>Jack Wilkinson</h1>
+            <div className="flex items-center justify-center">
+                <p className="text-5xl">Jack Wilkinson</p>
+                <div>
+                    <a>Github</a>
+                    <a>Resume</a>
+                </div>
+                <button>Down Arrow</button>
+            </div>
         </>
     )
   }
   
-  export default title
+  export default Title
