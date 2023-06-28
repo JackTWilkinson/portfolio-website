@@ -31,6 +31,17 @@ const About: React.FunctionComponent<AboutProps> = () => {
                         that interfaced with many users a day.
                     </p>
                 </div>
+                <div className='flex flex-col'>
+                    <p className='text-2xl'>
+                        Language List/skills
+                    </p>
+                    <p>
+                        JavaScript, Ja va, C++, Python, REACT, PHP, Nodejs, Gra phql, a nd Android Studio
+                        Experience working in Agile tea ms a nd a  variety of distinct team environments o Active member of several sports 
+                        and clubs throughout High School a nd College, including: IEEE (2018), Our Town (2018), Va rsity Show Choir 
+                        (2014-2017)
+                    </p>
+                </div>
             </div>
         </div>
     )
