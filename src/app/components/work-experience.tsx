@@ -17,6 +17,7 @@ const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperience
                 { props.description }
                 <br/>
                 <div className="flex flex-row">
+                  <p>Tools Utilized: </p>
                   {
                     props.tools.map((tool, index) => (
                         <div className="px-1" key={index}>
