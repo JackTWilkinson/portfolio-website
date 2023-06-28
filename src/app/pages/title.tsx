@@ -2,6 +2,7 @@ export type TitleProps = {};
 import Image from 'next/image';
 import githubLogo from '../../../public/static/github.png';
 import documentLogo from '../../../public/static/document.png';
+import linkedinLogo from '../../../public/static/linkedin.png';
 
 const Title: React.FunctionComponent<TitleProps> = () => {
 
@@ -28,6 +29,16 @@ const Title: React.FunctionComponent<TitleProps> = () => {
                             width={40}
                             height={40}
                             alt='A download link for my current Resume'
+                        />
+                    </a>
+                </div>
+                <div>
+                    <a rel='noopener noreferrer' href='https://www.linkedin.com/in/jack-wilkinson-19491114b/' target='_blank'>
+                        <Image 
+                            src={linkedinLogo}
+                            width={40} 
+                            height={40} 
+                            alt='Link to my Linkedin profile'
                         />
                     </a>
                 </div>

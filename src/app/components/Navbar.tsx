@@ -20,21 +20,21 @@ export default function Navbar() {
         }
     }
     
-    if (typeof window !== "undefined") {
-        window.addEventListener("scroll", fixNav);
+    if (typeof window !== 'undefined') {
+        window.addEventListener('scroll', fixNav);
     }
     
     return(
          <div id='navbar' className={'' + fix ? 'sticky' : ''}>
              <ul>
                  <li>
-                     <Link href="#title">Title</Link>
+                     <Link href='#title'>Title</Link>
                  </li>
                  <li>
-                     <Link href="#about">About</Link>
+                     <Link href='#about'>About</Link>
                  </li>
                  <li>
-                     <Link href="#work-experience">Work Experience</Link>
+                     <Link href='#work-experience'>Work Experience</Link>
                  </li>
              </ul>
          </div>

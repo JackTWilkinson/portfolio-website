@@ -1,5 +1,5 @@
-import WorkExperienceItem, { WorkExperienceProps } from "../components/work-experience";
-import workExperiences from "../json/work-experiences.json";
+import WorkExperienceItem, { WorkExperienceProps } from '../components/work-experience';
+import workExperiences from '../json/work-experiences.json';
 
 export type WorkExperienceListProps = {}
 
@@ -9,14 +9,14 @@ const WorkExperienceList: React.FunctionComponent<WorkExperienceListProps> = () 
 
   return(
         <>  
-          <div className="flex justify-center pb-10">
-            <p className="text-5xl">Work Experiences</p>
+          <div className='flex justify-center pb-10'>
+            <p className='text-5xl'>Work Experiences</p>
           </div>
-          <div className="grid grid-cols-2">
+          <div className='grid grid-cols-2'>
             {
               experienceArray.map((experience: WorkExperienceProps, key) => {
                 return (
-                  <div className="flex justify-center py-4" key={key}>
+                  <div className='flex justify-center py-4' key={key}>
                     <WorkExperienceItem {...experience} />
                   </div>
                 )
