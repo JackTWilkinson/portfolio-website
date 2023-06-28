@@ -26,11 +26,11 @@ const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperience
                     ))
                   }
                 </div>
-                <div>
+                <div className="flex flex-row">
                   {
                     props.dates_worked.map((date, index) => (
-                        <div key={index}>
-                          <p> {date} </p>
+                        <div className="pr-2" key={index}>
+                          <p> { date} </p>
                         </div>
                     ))
                   }

@@ -9,21 +9,19 @@ const WorkExperienceList: React.FunctionComponent<WorkExperienceListProps> = () 
 
   return(
         <>  
-          <div className="flex items-center justify-center">
+          <div className="flex justify-center pb-10">
             <p className="text-5xl">Work Experiences</p>
           </div>
-          <div className="grid py-3 grid-cols-2 gap-4 h-48">
-            <div>
-              {
-                experienceArray.map((experience: WorkExperienceProps, key) => {
-                  return (
-                    <div key={key}>
-                      <WorkExperienceItem {...experience} />
-                    </div>
-                  )
-                })
-              }
-            </div>
+          <div className="grid grid-cols-2">
+            {
+              experienceArray.map((experience: WorkExperienceProps, key) => {
+                return (
+                  <div className="flex justify-center py-4" key={key}>
+                    <WorkExperienceItem {...experience} />
+                  </div>
+                )
+              })
+            }
           </div>
         </>
     )
