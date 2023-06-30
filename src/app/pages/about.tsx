@@ -3,7 +3,7 @@ export type AboutProps = {};
 const About: React.FunctionComponent<AboutProps> = () => {
 
     return(
-        <div className='flex flex-col'>
+        <div className='flex flex-col w-5/8'>
             <div className='flex justify-center pb-10'>
                 <p className='text-5xl'>My Expertise</p>
             </div>

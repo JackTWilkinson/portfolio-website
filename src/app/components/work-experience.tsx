@@ -40,4 +40,5 @@ const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperience
         </>
     );
 }
+
 export default WorkExperienceItem
