@@ -8,7 +8,7 @@ export type WorkExperienceProps = {
 const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperienceProps) => {
     return (
         <>
-            <div className='collapse w-96 bg-orange-600 border-black rounded-box collapse-arrow'>
+            <div className='collapse w-3/4 border-8 bg-orange-600 border-black rounded-box collapse-arrow'>
               <input type='checkbox'/> 
               <div className='collapse-title text-xl font-medium'>
                 { props.title }

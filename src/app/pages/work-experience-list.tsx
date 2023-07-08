@@ -12,7 +12,7 @@ const WorkExperienceList: React.FunctionComponent<WorkExperienceListProps> = () 
           <div className='flex justify-center pb-10'>
             <p className='text-5xl'>Work Experiences</p>
           </div>
-          <div className='grid grid-cols-2'>
+          <div className=''>
             {
               experienceArray.map((experience: WorkExperienceProps, key) => {
                 return (
