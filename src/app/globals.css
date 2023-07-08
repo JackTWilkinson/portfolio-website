@@ -27,9 +27,14 @@ body {
 }
 
 section {
-  height: 80vh;
+  height: 100vh;
   padding-top: 3rem;
 }
+
+/* .page-component {
+  height: 60vh;
+  padding-top: 3rem;
+} */
 
 #navbar {
   overflow: hidden;

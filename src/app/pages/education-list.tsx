@@ -12,11 +12,11 @@ const EducationList: React.FunctionComponent<EducationListProps> = () => {
           <div className='flex justify-center pb-10'>
             <p className='text-5xl'>Education</p>
           </div>
-          <div>
+          <div className='flex flex-col justify-start mx-20'>
             {
               educationArray.map((educationItem: EducationProps, key) => {
                 return (
-                  <div className='flex justify-center py-4' key={key}>
+                  <div className='py-4' key={key}>
                     <EducationItem {...educationItem} />
                   </div>
                 )

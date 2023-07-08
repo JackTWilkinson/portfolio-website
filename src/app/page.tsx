@@ -14,16 +14,17 @@ const Index: React.FunctionComponent<IndexProps> = () => {
         <Navbar />
       </header>
       <body>
+        {/* <section className='h-screen' id='title'> */}
         <section id='title'>
           <Title />
         </section>
-        <section id='education'>
+        <section className='page-component' id='education'>
           <EducationList />
         </section>
-        <section id='about'>
+        <section className='page-component' id='about'>
           <About />
         </section>
-        <section id='work-experience'>
+        <section className='page-component' id='work-experience'>
           <WorkExperienceList />
         </section>
         {/* <section>
