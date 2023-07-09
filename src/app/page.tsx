@@ -3,6 +3,7 @@ import Title from './pages/title';
 import About from './pages/about';
 import WorkExperienceList from './pages/work-experience-list';
 import EducationList from './pages/education-list';
+import ResumeDownload from './pages/resume-download';
 
 export type IndexProps = {}
 
@@ -14,12 +15,8 @@ const Index: React.FunctionComponent<IndexProps> = () => {
         <Navbar />
       </header>
       <body>
-        {/* <section className='h-screen' id='title'> */}
         <section id='title'>
           <Title />
-        </section>
-        <section className='page-component' id='education'>
-          <EducationList />
         </section>
         <section className='page-component' id='about'>
           <About />
@@ -27,9 +24,9 @@ const Index: React.FunctionComponent<IndexProps> = () => {
         <section className='page-component' id='work-experience'>
           <WorkExperienceList />
         </section>
-        {/* <section>
-          <Projects />
-        </section> */}
+        <section className='page-component' id='education'>
+          <EducationList />
+        </section>
       </body>
     </>
   )

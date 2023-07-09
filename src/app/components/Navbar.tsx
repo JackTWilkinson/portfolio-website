@@ -39,6 +39,14 @@ export default function Navbar() {
                  <li>
                      <Link href='#work-experience'>Work Experience</Link>
                  </li>
+                 <li>
+                    <div className='flex justify-end'>
+                        <button>
+                            {/* Move to the bottom right corner as a hover button with icon */}
+                            Download Resume PDF
+                        </button>
+                    </div>
+                 </li>
              </ul>
          </div>
     )

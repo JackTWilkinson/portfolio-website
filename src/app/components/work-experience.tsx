@@ -8,14 +8,13 @@ export type WorkExperienceProps = {
 const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperienceProps) => {
     return (
         <>
-            <div className='collapse w-3/4 border-8 bg-orange-600 border-black rounded-box collapse-arrow'>
-              <input type='checkbox'/> 
+            <div tabIndex={0} className='collapse w-3/4 border-8 bg-orange-600 border-black text-primary-content focus:text-secondary-content rounded-box'>
               <div className='collapse-title text-xl font-medium'>
                 { props.title }
               </div> 
               <div className='collapse-content'> 
                 { props.description }
-                <br/>
+                <br/><br/>
                 <div className='flex flex-row'>
                   <p>Tools Utilized: </p>
                   {
@@ -26,11 +25,12 @@ const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperience
                     ))
                   }
                 </div>
+                <br/>
                 <div className='flex flex-row'>
                   {
                     props.dates_worked.map((date, index) => (
                         <div className='pr-2' key={index}>
-                          <p> { date} </p>
+                          <p> { date } </p>
                         </div>
                     ))
                   }
