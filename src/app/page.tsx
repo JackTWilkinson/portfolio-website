@@ -3,7 +3,7 @@ import Title from './pages/title';
 import About from './pages/about';
 import WorkExperienceList from './pages/work-experience-list';
 import EducationList from './pages/education-list';
-import ResumeDownload from './pages/resume-download';
+import ResumeButton from './components/resume-button';
 
 export type IndexProps = {}
 
@@ -27,6 +27,7 @@ const Index: React.FunctionComponent<IndexProps> = () => {
         <section className='page-component' id='education'>
           <EducationList />
         </section>
+        <ResumeButton />
       </body>
     </>
   )

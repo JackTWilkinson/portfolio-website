@@ -6,29 +6,27 @@ export type EducationProps = {
 
 const EducationItem: React.FC<EducationProps> = (props: EducationProps) => {
     return (
-        <>
-            <div className='px-10'>
-              <div className='flex justify-center text-xl font-medium'>
-                { props.title } - { props.description }
-              </div> 
-              <div> 
-                <br/>
-                <div className='flex flex-row'>
-                  <p className='font-bold'> Dates Attended: </p>
-                  {
-                    props.dates_attended.map((date, index) => (
-                        <div className='px-2' key={index}>
-                          <p> { date} </p>
-                        </div>
-                    ))
-                  }
-                </div>
-              </div>
-              <div>
-                <p>Adding transcripts/links to the university??</p>
-              </div>
-            </div>
-        </>
+      <div>
+        <div className='flex justify-center text-xl font-medium'>
+          { props.title } - { props.description }
+        </div> 
+        <div> 
+          <br/>
+          <div className='flex flex-row'>
+            <p className='font-bold'> Dates Attended: </p>
+            {
+              props.dates_attended.map((date, index) => (
+                  <div className='px-2' key={index}>
+                    <p> { date} </p>
+                  </div>
+              ))
+            }
+          </div>
+        </div>
+        <div>
+          <p>Adding transcripts/links to the university??</p>
+        </div>
+      </div>
     );
 }
 

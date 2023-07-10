@@ -8,7 +8,7 @@ export type WorkExperienceProps = {
 const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperienceProps) => {
     return (
         <>
-            <div tabIndex={0} className='collapse w-3/4 border-8 bg-orange-600 border-black text-primary-content focus:text-secondary-content rounded-box'>
+            <div tabIndex={0} className='w-3/4 text-inherit collapse border-8 bg-orange-600 border-black text-primary-content focus:text-secondary-content:text-inherit rounded-box'>
               <div className='collapse-title text-xl font-medium'>
                 { props.title }
               </div> 

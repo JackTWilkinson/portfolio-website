@@ -1,7 +1,6 @@
 export type TitleProps = {};
 import Image from 'next/image';
 import githubLogo from '../../../public/static/github.png';
-import documentLogo from '../../../public/static/document.png';
 import linkedinLogo from '../../../public/static/linkedin.png';
 
 const Title: React.FunctionComponent<TitleProps> = () => {
@@ -19,16 +18,6 @@ const Title: React.FunctionComponent<TitleProps> = () => {
                             width={40} 
                             height={40} 
                             alt='Link to my Github profile'
-                        />
-                    </a>
-                </div>
-                <div>
-                    <a href={'../../../public/resume.pdf'} download='resume'>
-                        <Image 
-                            src={documentLogo}
-                            width={40}
-                            height={40}
-                            alt='A download link for my current Resume'
                         />
                     </a>
                 </div>
