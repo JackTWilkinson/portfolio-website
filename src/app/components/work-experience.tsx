@@ -20,7 +20,7 @@ const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperience
                   {
                     props.tools.map((tool, index) => (
                         <div className='px-1' key={index}>
-                          <span className='badge badge-outline'> {tool} </span>
+                          <span className='badge badge-ghost'> {tool} </span>
                         </div>
                     ))
                   }
