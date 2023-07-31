@@ -31,13 +31,13 @@ export default function Navbar() {
                      <Link href='#title'>Title</Link>
                  </li>
                  <li>
-                    <Link href='#education'>Education</Link>
-                 </li>
-                 <li>
                      <Link href='#about'>About</Link>
                  </li>
                  <li>
                      <Link href='#work-experience'>Work Experience</Link>
+                 </li>
+                 <li>
+                    <Link href='#education'>Education</Link>
                  </li>
              </ul>
          </div>
