@@ -8,7 +8,7 @@ const About: React.FunctionComponent<AboutProps> = () => {
                 <p className='text-5xl'>My Expertise</p>
             </div>
             <div className='grid grid-cols-3 gap-4'>
-                <div className='flex flex-col bg-orange-600 border-8 border-black rounded-box p-10'>
+                <div className='flex flex-col bg-black border-8 border-blue-950 rounded-box p-10'>
                     <p className='text-2xl flex justify-center'>Software Development</p>
                     <hr />
                     <p>
@@ -16,7 +16,7 @@ const About: React.FunctionComponent<AboutProps> = () => {
                         and have utilized functional and OOP in professional development environments.
                     </p>
                 </div>
-                <div className='flex flex-col bg-orange-600 border-8 border-black rounded-box p-10'>
+                <div className='flex flex-col bg-black border-8 border-blue-950 rounded-box p-10'>
                     <p className='text-2xl flex justify-center'>
                         Frontend & Fullstack Developement
                     </p>
@@ -27,7 +27,7 @@ const About: React.FunctionComponent<AboutProps> = () => {
                         in a variety of capacities order to deliver high quality code that is used by a wide variety of end users.
                     </p>
                 </div>
-                <div className='flex flex-col bg-orange-600 border-8 border-black rounded-box p-10'>
+                <div className='flex flex-col bg-black border-8 border-blue-950 rounded-box p-10'>
                     <p className='text-2xl flex justify-center'>
                         Language List/skills
                     </p>

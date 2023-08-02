@@ -4,11 +4,11 @@
 
 html {
   background-color: darkcyan; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom right, darkcyan, yellow)
+  background-image: linear-gradient(to bottom right, #1b4d89, #6db784)
 }
 
 body {
-  color: black;
+  color: #ffffff;
   background: transparent;
 }
 
@@ -19,7 +19,7 @@ section {
 
 #navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #312e81;
   padding: 10px;
   z-index: 1000;
 }

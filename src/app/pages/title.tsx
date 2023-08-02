@@ -9,22 +9,22 @@ const Title: React.FunctionComponent<TitleProps> = () => {
                 <p className='text-5xl'>Jack Wilkinson</p>
             </div>
             <div className='flex flex-row'>
-                <div>
+                <div className='px-3'>
                     <a rel='noopener noreferrer' href='https://github.com/JackTWilkinson' target='_blank'>
                         <Image 
-                            src='/static/github.png'
-                            width={40} 
-                            height={40} 
+                            src='/static/github.svg'
+                            width={50} 
+                            height={50} 
                             alt='Link to my Github profile'
                         />
                     </a>
                 </div>
-                <div>
+                <div className='px-3'>
                     <a rel='noopener noreferrer' href='https://www.linkedin.com/in/jack-wilkinson-19491114b/' target='_blank'>
                         <Image 
-                            src='/static/linkedin.png'
-                            width={40} 
-                            height={40} 
+                            src='/static/linkedin.svg'
+                            width={50} 
+                            height={50} 
                             alt='Link to my Linkedin profile'
                         />
                     </a>
