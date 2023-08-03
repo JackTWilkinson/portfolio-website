@@ -1,14 +1,20 @@
+import Image from 'next/image';
+
 export type EducationProps = {
     title: string;
+    degree: string;
+    gpa: number;
     description: string;
+    link: string;
     dates_attended: Array<string>;
+    logo: string;
 };
 
 const EducationItem: React.FC<EducationProps> = (props: EducationProps) => {
     return (
       <div>
         <div className='flex justify-center text-xl font-medium'>
-          { props.title } - { props.description }
+          { props.title } - { props.degree }
         </div> 
         <div> 
           <br/>
@@ -21,10 +27,20 @@ const EducationItem: React.FC<EducationProps> = (props: EducationProps) => {
                   </div>
               ))
             }
+            <div className=''>
+              {/* Justify right somehow*/}
+              <p> GPA {props.gpa} </p>
+            </div>
           </div>
         </div>
         <div>
-          <p>Adding transcripts/links to the university??</p>
+            <a href={props.link}>University homepage</a>
+            <Image 
+                src={props.logo}
+                width={50}
+                height={50}
+                alt={props.title}
+            />
         </div>
       </div>
     );

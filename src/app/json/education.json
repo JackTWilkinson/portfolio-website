@@ -1,23 +1,35 @@
 [{
     "title": "Iowa State University",
-    "description": "Bachelors",
+    "degree": "Bachelors",
     "dates_attended": [
         "August 2017 -",
         "May 2022"
-    ]
+    ],
+    "link": "https://catalog.iastate.edu/collegeofengineering/computerengineering/",
+    "description": "",
+    "gpa": 3.72,
+    "logo": "/static/isu-engineering.png"
 },
 {
     "title": "Iowa State University",
-    "description": "MBA",
+    "degree": "MBA",
     "dates_attended": [
         "August 2020 -",
         "May 2022"
-    ]
+    ],
+    "link": "https://www.ivybusiness.iastate.edu/degree/mba/",
+    "description": "",
+    "gpa": 3.72,
+    "logo": "/static/isu-ivy.png"
 },
 {
     "title": "University of Birmingham",
-    "description": "Study Abroad through the CS department",
+    "degree": "Study Abroad through the CS department",
     "dates_attended": [
         "Spring 2020"
-    ]
+    ],
+    "link": "https://www.birmingham.ac.uk/undergraduate/courses/computer-science/computer-science.aspx",
+    "description": "",
+    "gpa": 0.0,
+    "logo": "/static/brum.png"
 }]
