@@ -1,7 +1,19 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Inter, League_Spartan, Roboto_Mono } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
+
+const roboto_mono = Roboto_Mono({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-roboto-mono'
+});
+
+const league_spartan = League_Spartan({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-league-spartan'
+})
 
 export const metadata = {
   title: 'Jack Wilkinson - Fullstack and Frontend Software Engineer',
@@ -15,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} ${league_spartan.variable} ${roboto_mono.variable}`}>{children}</body>
     </html>
   )
 }

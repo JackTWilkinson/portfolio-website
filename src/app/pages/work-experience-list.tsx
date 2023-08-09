@@ -10,7 +10,7 @@ const WorkExperienceList: React.FunctionComponent<WorkExperienceListProps> = () 
   return(
         <div>  
           <div className='flex justify-center pb-10'>
-            <p className='text-5xl'>Work Experiences</p>
+            <p className='font-spartan text-5xl'>Work Experiences</p>
           </div>
           <div>
             {

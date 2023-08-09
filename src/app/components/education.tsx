@@ -13,7 +13,7 @@ export type EducationProps = {
 
 const EducationItem: React.FC<EducationProps> = (props: EducationProps) => {
     return (
-      <div>
+      <div className='font-roboto'>
         <div className='flex justify-center text-xl font-medium'>
           { props.title } - { props.degree }
         </div> 
@@ -35,7 +35,7 @@ const EducationItem: React.FC<EducationProps> = (props: EducationProps) => {
           </div>
         </div>
         <div>
-            <Link className='smart-hover-text' href={props.link}>University homepage</Link>
+            <Link className='hover:text-gray-500' href={props.link}>University homepage</Link>
             <Image 
                 src={props.logo}
                 width={50}

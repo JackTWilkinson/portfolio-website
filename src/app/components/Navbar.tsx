@@ -28,16 +28,16 @@ export default function Navbar() {
          <div id='navbar' className={fix ? 'sticky' : ''}>
              <ul>
                  <li>
-                     <Link className='smart-hover-text' href='#title'>Title</Link>
+                     <Link className='hover:text-gray-500' href='#title'>Title</Link>
                  </li>
                  <li>
-                     <Link className='smart-hover-text' href='#about'>About</Link>
+                     <Link className='hover:text-gray-500' href='#about'>About</Link>
                  </li>
                  <li>
-                     <Link className='smart-hover-text' href='#work-experience'>Work Experience</Link>
+                     <Link className='hover:text-gray-500' href='#work-experience'>Work Experience</Link>
                  </li>
                  <li>
-                    <Link className='smart-hover-text' href='#education'>Education</Link>
+                    <Link className='hover:text-gray-500' href='#education'>Education</Link>
                  </li>
              </ul>
          </div>
