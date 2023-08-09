@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import DocumentIcon from './document-icon';
 
 export type ResumeProps = {}
 
@@ -13,11 +13,10 @@ const ResumeButton: React.FC<ResumeProps> = (props: ResumeProps) => {
                 rel="noopener noreferrer"
                 download
             >
-                    <Image 
-                        src='/static/document.svg'
+                    <DocumentIcon 
+                        className='smart-hover-svg'
                         width={40}
                         height={40}
-                        alt='A download link for my current Resume'
                     />
                 </a>
             </div>

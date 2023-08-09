@@ -25,19 +25,19 @@ export default function Navbar() {
     }
     
     return(
-         <div id='navbar' className={'' + fix ? 'sticky' : ''}>
+         <div id='navbar' className={fix ? 'sticky' : ''}>
              <ul>
                  <li>
-                     <Link href='#title'>Title</Link>
+                     <Link className='smart-hover-text' href='#title'>Title</Link>
                  </li>
                  <li>
-                     <Link href='#about'>About</Link>
+                     <Link className='smart-hover-text' href='#about'>About</Link>
                  </li>
                  <li>
-                     <Link href='#work-experience'>Work Experience</Link>
+                     <Link className='smart-hover-text' href='#work-experience'>Work Experience</Link>
                  </li>
                  <li>
-                    <Link href='#education'>Education</Link>
+                    <Link className='smart-hover-text' href='#education'>Education</Link>
                  </li>
              </ul>
          </div>

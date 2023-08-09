@@ -9,6 +9,7 @@ const ProjectList: React.FunctionComponent<ProjectListProps> = () => {
           <div className='flex justify-center pb-10'>
             <p className='text-5xl'>Projects</p>
           </div>
+          {/* <div class="badge badge-secondary">Add for a cool highlight!</div> */}
           <div className='list'>
             {
               // projectArray.map((projectItem: ProjectListProps, key) => {

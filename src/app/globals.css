@@ -47,3 +47,11 @@ section {
   top: 0;
   width: 100%;
 }
+
+.smart-hover-text:hover {
+  color:grey;
+}
+
+.smart-hover-svg:hover {
+  fill:grey;
+}

@@ -1,5 +1,7 @@
 export type TitleProps = {};
 import Image from 'next/image';
+import GitIcon from '../components/git-icon';
+import LinkedinIcon from '../components/linkedin-icon';
 import { League_Spartan, Roboto_Mono } from 'next/font/google';
 
 const titleFont1 = League_Spartan({
@@ -32,21 +34,19 @@ const Title: React.FunctionComponent<TitleProps> = () => {
             <div className='flex flex-row'>
                 <div className='px-3'>
                     <a rel='noopener noreferrer' href='https://github.com/JackTWilkinson' target='_blank'>
-                        <Image 
-                            src='/static/github.svg'
-                            width={50} 
-                            height={50} 
-                            alt='Link to my Github profile'
+                        <GitIcon 
+                            className='smart-hover-svg'
+                            width={50}
+                            height={50}
                         />
                     </a>
                 </div>
                 <div className='px-3'>
                     <a rel='noopener noreferrer' href='https://www.linkedin.com/in/jack-wilkinson-19491114b/' target='_blank'>
-                        <Image 
-                            src='/static/linkedin.svg'
-                            width={50} 
-                            height={50} 
-                            alt='Link to my Linkedin profile'
+                        <LinkedinIcon 
+                            className='smart-hover-svg'
+                            height={50}
+                            width={50}
                         />
                     </a>
                 </div>

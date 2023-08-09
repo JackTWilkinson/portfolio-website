@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export type EducationProps = {
     title: string;
@@ -34,7 +35,7 @@ const EducationItem: React.FC<EducationProps> = (props: EducationProps) => {
           </div>
         </div>
         <div>
-            <a href={props.link}>University homepage</a>
+            <Link className='smart-hover-text' href={props.link}>University homepage</Link>
             <Image 
                 src={props.logo}
                 width={50}
