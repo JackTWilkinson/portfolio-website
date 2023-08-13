@@ -26,18 +26,18 @@ export default function Navbar() {
     
     return(
          <div id='navbar' className={fix ? 'sticky' : ''}>
-             <ul>
+             <ul className='font-roboto'>
                  <li>
-                     <Link className='hover:text-gray-500' href='#title'>Title</Link>
+                     <Link className='hover:text-gray-500' href='#title'>\\ Title</Link>
                  </li>
                  <li>
-                     <Link className='hover:text-gray-500' href='#about'>About</Link>
+                     <Link className='hover:text-gray-500' href='#about'>\\ About</Link>
                  </li>
                  <li>
-                     <Link className='hover:text-gray-500' href='#work-experience'>Work Experience</Link>
+                     <Link className='hover:text-gray-500' href='#work-experience'>\\ Work Experience</Link>
                  </li>
                  <li>
-                    <Link className='hover:text-gray-500' href='#education'>Education</Link>
+                    <Link className='hover:text-gray-500' href='#education'>\\ Education</Link>
                  </li>
              </ul>
          </div>

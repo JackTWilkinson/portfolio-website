@@ -23,6 +23,7 @@ const DocumentIcon: React.FC<DocumentIconProps> = (props: DocumentIconProps) => 
         //             C-15.1,316.2-3.4,328.4,14.7,328.4z"/>
         //     </g>
         // </svg> TODO fix reactive button on document icon
+        // TODO restructure svgs to inherit a custom svg type, the props are reused across all
     );
   };
   

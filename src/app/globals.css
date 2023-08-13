@@ -48,6 +48,7 @@ section {
   width: 100%;
 }
 
+/* This shouldn't be needed but tailwind isn't playing nice with svgs */
 .smart-hover-svg:hover {
   fill:grey;
 }
