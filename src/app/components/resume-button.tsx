@@ -4,6 +4,7 @@ export type ResumeProps = {}
 
 const ResumeButton: React.FC<ResumeProps> = (props: ResumeProps) => {
         // TODO fix hover re-color
+        // TODO change to button?
     return (
         <div className='position: fixed bottom-8 right-8 border-8 border-indigo-900 rounded-full  bg-black cursor-pointer'>
             <div className='tooltip tooltip-left m-2' data-tip='Download a pdf copy of my resume here!'> 

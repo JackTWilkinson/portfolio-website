@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
-
 export type EducationProps = {
     title: string;
     degree: string;
@@ -28,21 +25,14 @@ const EducationItem: React.FC<EducationProps> = (props: EducationProps) => {
                   </div>
               ))
             }
-            <div className='flex justify-right'>
-              {/* TODO Justify right somehow*/}
-              <p> GPA {props.gpa} </p>
-            </div>
+          </div>
+          <div className='flex flex-row'>
+            <p className='font-bold px-3'> GPA: </p>
+            <p>{ props.gpa == 0 ? 'Not Applicable' : props.gpa } </p>
           </div>
         </div>
-        <div className=''>
-          <button className='btn glass'>{ props.title } homepage</button>
-          <Image 
-              src={props.logo}
-              width={50}
-              height={50}
-              alt={props.title}
-          />
-          {/* TODO glass button over banner of set size for the homepage button */}
+        <div className='flex justify-center pt-5'>
+          <a role="button" target="_blank" href={ props.link } className='btn btn-wide'>{ props.title } homepage</a>
         </div>
       </div>
     );

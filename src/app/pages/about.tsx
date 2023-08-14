@@ -1,7 +1,7 @@
 export type AboutProps = {};
 
 const About: React.FunctionComponent<AboutProps> = () => {
-
+// TODO Mobile Support
     return(
         <div className='flex flex-col mx-10'>
             <div className='flex justify-center pb-10'>
@@ -12,31 +12,32 @@ const About: React.FunctionComponent<AboutProps> = () => {
                     <p className='font-spartan text-2xl flex justify-center'>Software Development</p>
                     <hr />
                     <p className='font-roboto'>
-                        Experienced in OOP: acted as a TA for Object-Oriented Programming at Iowa State University, 
-                        and have utilized functional and OOP in professional development environments.
+                        Experienced in Object-Oriented Programming in a variety of frameworks including:
+                        Javascript, Java, C++, REACT, NEXT.js, PHP, Python and Android Studio. Able to apply existing
+                        understanding of foundational software development concepts to new frameworks quickly and 
+                        effectively.
                     </p>
                 </div>
                 <div className='flex flex-col bg-black border-8 border-blue-950 rounded-box p-10'>
                     <p className='font-spartan text-2xl flex justify-center'>
-                        Frontend & Fullstack Developement
-                        {/* TODO, needs to center at least */}
+                        Fullstack Developement
                     </p>
                     <hr />
                     <p className='font-roboto'>
                         Professional experience in a frontend and fullstack development environments utilizing: 
-                        Next.js and Node.js and Salesforce frameworks. Adept at working in agile environments 
-                        in a variety of capacities order to deliver high quality code that is used by a wide variety of end users.
+                        Next.js, React, and Salesforce frameworks. Responsible for achieving code quality through code coverage
+                        and the utilization of Test-Driven-Development. 
                     </p>
                 </div>
                 <div className='flex flex-col bg-black border-8 border-blue-950 rounded-box p-10'>
                     <p className='font-spartan text-2xl flex justify-center'>
-                        Language List/skills
+                        Skills
                     </p>
                     <hr className='bg-black' />
                     <p className='font-roboto'>
-                        Experience developing with: JavaScript, Java, C++, Python, REACT, PHP, Nodejs, Graphql,
-                        and Android Studio. Experience working in Agile teams and a variety of distinct team 
-                        environments including a variety of performing arts and sports teams throughout college and high school.
+                        Experience working in Agile teams responsible for the production and maintenance of high-quality code through
+                        testing and pair-programming. Public speaking and presentation experience utilized to communicate ideas to 
+                        stakeholders and peers in a variety of settings.
                     </p>
                 </div>
             </div>

@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 export type ProjectListProps = {}
 
+// Being shelved until there are projects to add
 const ProjectList: React.FunctionComponent<ProjectListProps> = () => {
   
   return(
