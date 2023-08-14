@@ -1,6 +1,6 @@
 [{
     "title": "Software Engineer @ Principal Financial",
-    "description": "Wrote production code for multiple applications with a focus on TODO",
+    "description": "Developed in a multi-dimensional agile team responsible for multiple heavy-traffic products.\n Team responsibilities encompassed business-facing Salesforce dashboards, automated Java processes,\n and React-based frontend experiences. Performed code review to assure code quality and participated\n in new technology exploration and feedback in order to best satisfy business needs.",
     "tools": [
         "Java",
         "Salesforce",
@@ -13,7 +13,7 @@
 },
 {
     "title": "Web Developer @ Iowa State University",
-    "description": "Developed web applications for different clients at the University.\n Wrote and revised tutorials utilized employees at the web-development department to include updated best practices and tools.\n Designed project proposals for departments at the university and headed teams built around product development and delivery.",
+    "description": "Developed web applications for a variety of clients and departments at the University.\n Wrote and revised documentation to include best practices for new and existing tools and frameworks\n used by the department. Designed project proposals for departments at the university and headed teams built\n around product development and delivery.",
     "tools": [
         "Javascript",
         "PHP",
@@ -26,7 +26,7 @@
 },
 {
     "title": "Software Engineering Intern @ Hy-Vee",
-    "description": "Maintained Hy-Vee’s fuel saver & rewards program as a part of a full-time development team.\n Developed and made changes to customer-facing application pages that are still in use today.\n Added features to existing Hy-Vee APIs used to maintain application function.",
+    "description": "Maintained Hy-Vee’s fuel saver & rewards program and related systems.\nDeveloped and made changes to customer-facing applications that are still in use today.\nAdded features to existing Hy-Vee APIs used to maintain application function.",
     "tools": [
         "React",
         "Next.js",
@@ -41,8 +41,8 @@
     ]
 },
 {
-    "title": "Object-Oriented Programming Teaching Assistant @ Iowa State University",
-    "description": "Guided labs and assisted students through code evaluation and office hours.",
+    "title": "Teaching Assistant: Introduction to Object-Oriented Programming @ Iowa State University",
+    "description": "Instructed and reinforced foundtional topics regarding Object-Oriented Programming through lab and\n office hour sessions. Graded and provided indepth feedback about code quality in homework assignments.",
     "tools": [
         "Java"
     ],

@@ -4,7 +4,8 @@ import GitIcon from '../components/git-icon';
 import LinkedinIcon from '../components/linkedin-icon';
 
 const Title: React.FunctionComponent<TitleProps> = () => {
-
+// TODO get final review on text
+// TODO do final review on code
     return(
         <div className='flex h-full justify-center items-center flex-col'>
             <div className='pb-4'>

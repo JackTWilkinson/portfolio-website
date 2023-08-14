@@ -17,31 +17,32 @@ const EducationItem: React.FC<EducationProps> = (props: EducationProps) => {
         <div className='flex justify-center text-xl font-medium'>
           { props.title } - { props.degree }
         </div> 
+        <br/>
         <div> 
-          <br/>
           <div className='flex flex-row'>
             <p className='font-bold'> Dates Attended: </p>
             {
               props.dates_attended.map((date, index) => (
                   <div className='px-2' key={index}>
-                    <p> { date} </p>
+                    <p> { date } </p>
                   </div>
               ))
             }
-            <div className=''>
-              {/* Justify right somehow*/}
+            <div className='flex justify-right'>
+              {/* TODO Justify right somehow*/}
               <p> GPA {props.gpa} </p>
             </div>
           </div>
         </div>
-        <div>
-            <Link className='hover:text-gray-500' href={props.link}>University homepage</Link>
-            <Image 
-                src={props.logo}
-                width={50}
-                height={50}
-                alt={props.title}
-            />
+        <div className=''>
+          <button className='btn glass'>{ props.title } homepage</button>
+          <Image 
+              src={props.logo}
+              width={50}
+              height={50}
+              alt={props.title}
+          />
+          {/* TODO glass button over banner of set size for the homepage button */}
         </div>
       </div>
     );
