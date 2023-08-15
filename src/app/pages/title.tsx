@@ -1,16 +1,15 @@
 export type TitleProps = {};
 import Image from 'next/image';
-import GitIcon from '../components/git-icon';
-import LinkedinIcon from '../components/linkedin-icon';
+import GitIcon from '../components/svg/git-icon';
+import LinkedinIcon from '../components/svg/linkedin-icon';
 
 const Title: React.FunctionComponent<TitleProps> = () => {
 // TODO get final review on text
 // TODO do final review on code
-// TODO mobile support
     return(
         <div className='flex h-full justify-center items-center flex-col'>
             <div className='pb-4 pt-20'>
-                <h1 className='font-spartan font-bold text-4xl sm:text-9xl'>Jack Wilkinson</h1>
+                <h1 className='font-spartan font-bold text-4xl md:text-7xl lg:text-9xl'>Jack Wilkinson</h1>
             </div>
             <div className='pb-4'>
                 <Image 

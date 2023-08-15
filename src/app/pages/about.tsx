@@ -1,7 +1,6 @@
 export type AboutProps = {};
 
 const About: React.FunctionComponent<AboutProps> = () => {
-// TODO Mobile Support
     return(
         <div className='flex flex-col mx-3 sm:mx-10'>
             <div className='flex justify-center pb-10'>

@@ -1,4 +1,4 @@
-import DocumentIcon from './document-icon';
+import DocumentIcon from "./svg/document-icon";
 
 export type ResumeProps = {}
 

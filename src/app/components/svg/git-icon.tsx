@@ -1,10 +1,6 @@
-export type GitIconProps = {
-    className: string;
-    width: number;
-    height: number;
-};
+import { GenericSvgProps } from "./generic-svg-types";
 
-const GitIcon: React.FC<GitIconProps> = (props: GitIconProps) => {
+const GitIcon: React.FC<GenericSvgProps> = (props: GenericSvgProps) => {
     return (
       <svg 
         className={props.className} fill="#ffffff" height={props.height + "px"} width={props.width + "px"} version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 512 512"
