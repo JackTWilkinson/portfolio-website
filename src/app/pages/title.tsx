@@ -9,7 +9,7 @@ const Title: React.FunctionComponent<TitleProps> = () => {
 // TODO mobile support
     return(
         <div className='flex h-full justify-center items-center flex-col'>
-            <div className='pb-4'>
+            <div className='pb-4 pt-20'>
                 <h1 className='font-spartan font-bold text-9xl'>Jack Wilkinson</h1>
             </div>
             <div className='pb-4'>
