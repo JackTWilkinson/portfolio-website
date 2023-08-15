@@ -13,7 +13,7 @@ const EducationList: React.FunctionComponent<EducationListProps> = () => {
             <div className='flex justify-center pb-10'>
               <p className='font-spartan text-4xl sm:text-5xl'>Education</p>
             </div>
-            <div className='pl-3 bg-black border-8 border-blue-950 rounded-box'>
+            <div className='pl-3 bg-black border-8 border-blue-950 rounded-box flex flex-col'>
               {
                 educationArray.map((educationItem: EducationProps, key) => {
                   return (

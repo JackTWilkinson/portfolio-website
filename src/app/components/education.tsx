@@ -10,13 +10,13 @@ export type EducationProps = {
 
 const EducationItem: React.FC<EducationProps> = (props: EducationProps) => {
     return (
-      <div className='font-roboto text-m md:text-xl font-medium'>
-        <div className='flex justify-center'>
+      <div className='font-roboto [&>*]:flex [&>*]:justify-center'>
+        <div className='text-m md:text-xl font-medium'>
           { props.title } - { props.degree }
         </div> 
         <br/>
-        <div className='text-[16px] sm:text-[18px]'> 
-          <div className='flex flex-row'>
+        <div className='text-[16px] sm:text-[18px] [&>div]:flex [&>div]:flex-row'> 
+          <div>
             <p className='font-bold'> Dates Attended: </p>
             {
               props.dates_attended.map((date, index) => (
@@ -26,13 +26,20 @@ const EducationItem: React.FC<EducationProps> = (props: EducationProps) => {
               ))
             }
           </div>
-          <div className='flex flex-row'>
+          <div>
             <p className='font-bold px-3'> GPA: </p>
             <p>{ props.gpa == 0 ? 'Not Applicable' : props.gpa } </p>
           </div>
-        </div>
-        <div className='flex justify-center pt-5'>
-          <a role="button" target="_blank" href={ props.link } className='btn btn-wide'>{ props.title } homepage</a>
+          <div className='ml-auto pr-5'>
+            <a 
+              role="button" 
+              target="_blank" 
+              href={ props.link } 
+              className='btn btn-wide btn-accent'
+            >
+              { props.title } homepage
+            </a>
+          </div>
         </div>
       </div>
     );
