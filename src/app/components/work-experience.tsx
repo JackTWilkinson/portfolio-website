@@ -6,9 +6,10 @@ export type WorkExperienceProps = {
 };
 
 const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperienceProps) => {
+  //TODO mobile support
     return (
-      <div tabIndex={0} className='w-3/4 font-roboto text-inherit collapse border-8 bg-black border-blue-950 text-primary-content focus:text-secondary-content:text-inherit rounded-box'>
-        <div className='collapse-title text-xl font-medium hover:text-gray-500'>
+      <div tabIndex={0} className='font-roboto text-inherit collapse sm:w-3/4 border-8 bg-black border-blue-950 text-primary-content focus:text-secondary-content:text-inherit rounded-box'>
+        <div className='collapse-title text-xl font-medium sm:hover:text-gray-500'>
           { props.title }
         </div> 
         <div className='collapse-content'> 

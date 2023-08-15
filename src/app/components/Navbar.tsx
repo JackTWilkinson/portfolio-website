@@ -27,18 +27,16 @@ export default function Navbar() {
     return(
          <div id='navbar' className={fix ? 'sticky' : ''}>
              <ul className='font-roboto'>
-                 <li>
-                     <Link className='hover:text-gray-500' href='#title'>\\ Title</Link>
-                 </li>
-                 <li>
-                     <Link className='hover:text-gray-500' href='#about'>\\ About</Link>
-                 </li>
-                 <li>
-                     <Link className='hover:text-gray-500' href='#work-experience'>\\ Work Experience</Link>
-                 </li>
-                 <li>
-                    <Link className='hover:text-gray-500' href='#education'>\\ Education</Link>
-                 </li>
+                {[
+                    ['Title', '#title'],
+                    ['About', '#about'],
+                    ['Work Experience', '#work-experience'],
+                    ['Education', '#education'],
+                ].map(([title, url, key]) => (
+                    <li key={ key }>
+                        <Link className='hover:text-gray-500' href={ url }>{ title }</Link>
+                    </li>
+                ))}
              </ul>
          </div>
     )

@@ -10,12 +10,12 @@ export type EducationProps = {
 
 const EducationItem: React.FC<EducationProps> = (props: EducationProps) => {
     return (
-      <div className='font-roboto'>
-        <div className='flex justify-center text-xl font-medium'>
+      <div className='font-roboto text-m md:text-xl font-medium'>
+        <div className='flex justify-center'>
           { props.title } - { props.degree }
         </div> 
         <br/>
-        <div> 
+        <div className='text-[16px] sm:text-[18px]'> 
           <div className='flex flex-row'>
             <p className='font-bold'> Dates Attended: </p>
             {

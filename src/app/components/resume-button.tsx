@@ -3,24 +3,25 @@ import DocumentIcon from './document-icon';
 export type ResumeProps = {}
 
 const ResumeButton: React.FC<ResumeProps> = (props: ResumeProps) => {
-        // TODO fix hover re-color
-        // TODO change to button?
     return (
-        <div className='position: fixed bottom-8 right-8 border-8 border-indigo-900 rounded-full  bg-black cursor-pointer'>
-            <div className='tooltip tooltip-left m-2' data-tip='Download a pdf copy of my resume here!'> 
-            <a
+        <div 
+        className='position: fixed bottom-3 sm:bottom-3 right-3 sm:right-3 cursor-pointer tooltip tooltip-left m-1' 
+        data-tip='Download a pdf copy of my resume here!'>
+            <a 
                 href='/static/resume.pdf'
+                role='button' 
                 target="_blank"
                 rel="noopener noreferrer"
                 download
+                className='btn btn-neutral'
             >
-                    <DocumentIcon 
-                        className='smart-hover-svg'
-                        width={40}
-                        height={40}
-                    />
-                </a>
-            </div>
+                <DocumentIcon 
+                    className='smart-hover-svg'
+                    width={40}
+                    height={40}
+                />
+                Resume
+            </a>
         </div>
     );
 }
