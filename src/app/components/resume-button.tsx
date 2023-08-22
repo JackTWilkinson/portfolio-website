@@ -5,8 +5,9 @@ export type ResumeProps = {}
 const ResumeButton: React.FC<ResumeProps> = (props: ResumeProps) => {
     return (
         <div 
-        className='position: fixed bottom-3 sm:bottom-3 right-3 sm:right-3 cursor-pointer tooltip tooltip-left m-1' 
-        data-tip='Download a pdf copy of my resume here!'>
+            className='position: fixed bottom-3 sm:bottom-3 right-3 sm:right-3 cursor-pointer tooltip tooltip-left m-1' 
+            data-tip='Download a pdf copy of my resume here!'
+        >
             <a 
                 href='/static/resume.pdf'
                 role='button' 

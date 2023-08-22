@@ -25,6 +25,10 @@ section {
   z-index: 1000;
 }
 
+#nav-button {
+  z-index: 1000;
+}
+
 #navbar Link {
   float: left;
   display: block;

@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import {useState, useEffect} from 'react';
-// TODO mobile support
+// TODO mobile support change to collapse bar on mobile maybe change resume button to scroll to top button
 
 export default function Navbar() {
     const [fix, setFix] = useState(false);
@@ -33,6 +33,7 @@ export default function Navbar() {
                     ['About', '#about'],
                     ['Work Experience', '#work-experience'],
                     ['Education', '#education'],
+                    ['Resume', '#resume-screen'],
                 ].map(([title, url, key]) => (
                     <li key={ key }>
                         <Link className='hover:text-gray-500' href={ url }>{ title }</Link>
