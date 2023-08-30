@@ -5,7 +5,6 @@ import LinkedinIcon from '../components/svg/linkedin-icon';
 
 const Title: React.FunctionComponent<TitleProps> = () => {
 // TODO get final review on text
-// TODO do final review on code
     return(
         <div className='flex h-full justify-center items-center flex-col'>
             <div className='pb-4 pt-20'>

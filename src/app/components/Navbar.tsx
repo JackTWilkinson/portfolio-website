@@ -1,7 +1,6 @@
 'use client';
 import Link from 'next/link';
 import {useState, useEffect} from 'react';
-// TODO mobile support change to collapse bar on mobile maybe change resume button to scroll to top button
 
 export default function Navbar() {
     const [fix, setFix] = useState(false);

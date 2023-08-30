@@ -13,7 +13,6 @@ const ResumeButton: React.FC<ResumeProps> = (props: ResumeProps) => {
                 role='button' 
                 target="_blank"
                 rel="noopener noreferrer"
-                download
                 className='btn btn-neutral'
             >
                 <DocumentIcon 

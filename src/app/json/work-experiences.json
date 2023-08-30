@@ -1,32 +1,30 @@
 [{
     "title": "Software Engineer @ Principal Financial",
-    "description": "Developed in a multi-dimensional agile team responsible for multiple heavy-traffic products.\n Team responsibilities encompassed business-facing Salesforce dashboards, automated Java processes,\n and React-based frontend experiences. Performed code review to assure code quality and participated\n in new technology exploration and feedback in order to best satisfy business needs.",
+    "description": "Developed in a multi-dimensional agile team responsible for multiple heavy-traffic products. Team responsibilities encompassed business-facing Salesforce dashboards, automated Java processes, and React-based frontend experiences. Performed code review to assure code quality and participated in new technology exploration and feedback in order to best satisfy business needs.",
     "tools": [
         "Java",
         "Salesforce",
         "React"
     ],
     "dates_worked": [
-        "June 2022 -",
-        "Current"
+        "June 2022 - Current"
     ]
 },
 {
     "title": "Web Developer @ Iowa State University",
-    "description": "Developed web applications for a variety of clients and departments at the University.\n Wrote and revised documentation to include best practices for new and existing tools and frameworks\n used by the department. Designed project proposals for departments at the university and headed teams built\n around product development and delivery.",
+    "description": "Developed web applications for a variety of clients and departments at the University. Wrote and revised documentation to include best practices for new and existing tools and frameworks used by the department. Designed project proposals for departments at the university and headed teams built around product development and delivery.",
     "tools": [
         "Javascript",
         "PHP",
         "SQL"
     ],
     "dates_worked": [
-        "May 2019 -",
-        "November 2019"
+        "May 2019 - November 2019"
     ]
 },
 {
     "title": "Software Engineering Intern @ Hy-Vee",
-    "description": "Maintained Hy-Vee’s fuel saver & rewards program and related systems.\nDeveloped and made changes to customer-facing applications that are still in use today.\nAdded features to existing Hy-Vee APIs used to maintain application function.",
+    "description": "Maintained Hy-Vee’s fuel saver & rewards program and related systems. Developed and made changes to customer-facing applications that are still in use today. Added features to existing Hy-Vee APIs used to maintain application function.",
     "tools": [
         "React",
         "Next.js",
@@ -34,20 +32,17 @@
         "GraphQl"
     ],
     "dates_worked": [
-        "May 2020 -",
-        "August 2020,",
-        "May 2021 -",
-        "August 2021"
+        "May 2020 - August 2020,",
+        "May 2021 - August 2021"
     ]
 },
 {
     "title": "Teaching Assistant: Introduction to Object-Oriented Programming @ ISU",
-    "description": "Instructed and reinforced foundtional topics regarding Object-Oriented Programming through lab and\n office hour sessions. Graded and provided indepth feedback about code quality in homework assignments.",
+    "description": "Instructed and reinforced foundtional topics regarding Object-Oriented Programming through lab and office hour sessions. Graded and provided indepth feedback about code quality in homework assignments.",
     "tools": [
         "Java"
     ],
     "dates_worked": [
-        "January 2019 -",
-        "May 2019"
+        "January 2019 - May 2019"
     ]
 }]

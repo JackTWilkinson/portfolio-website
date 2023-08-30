@@ -5,7 +5,6 @@ import WorkExperienceList from './pages/work-experience-list';
 import EducationList from './pages/education-list';
 import ResumeButton from './components/resume-button';
 import NavButton from './components/nav-button';
-import ResumeScreen from './pages/resume-screen';
 
 export type IndexProps = {}
 
@@ -34,12 +33,7 @@ const Index: React.FunctionComponent<IndexProps> = () => {
         <section className='page-component' id='education'>
           <EducationList />
         </section>
-        <section className='page-component lg:visible invisible' id='resume-screen'>
-          <ResumeScreen />
-        </section>
-        <div className='visible lg:invisible'>
-          <ResumeButton />
-        </div>
+        <ResumeButton />
       </body>
     </>
   )

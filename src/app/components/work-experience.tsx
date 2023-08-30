@@ -13,8 +13,8 @@ const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperience
           { props.title }
         </div> 
         <div className='collapse-content'> 
-          { props.description }
-          <br/><br/>
+          <p className=''>{ props.description }</p>
+          <br/>
           <div className='flex flex-row'>
             <p>Tools Utilized: </p>
             {
@@ -26,7 +26,7 @@ const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperience
             }
           </div>
           <br/>
-          <div className='flex flex-row'>
+          <div className='flex flex-col md:flex-row'>
             {
               props.dates_worked.map((date, index) => (
                   <div className='pr-2' key={index}>
