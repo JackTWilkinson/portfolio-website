@@ -12,7 +12,7 @@ const EducationItem: React.FC<EducationProps> = (props: EducationProps) => {
   // TODO regular support
   // TODO mobile support
     return (
-      <div className='font-roboto [&>*]:sm:flex [&>*]:sm:justify-center'>
+      <div className='font-roboto [&>*]:sm:flex [&>*]:sm:justify-center mx-10 md:w-3/4 md:mx-auto'>
         <div className='text-m md:text-xl font-medium'>
           { props.title } - { props.degree }
         </div> 

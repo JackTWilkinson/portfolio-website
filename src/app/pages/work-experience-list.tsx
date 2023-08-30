@@ -8,7 +8,7 @@ const WorkExperienceList: React.FunctionComponent<WorkExperienceListProps> = () 
   const experienceArray = Array.from(convertedList);
 
   return(
-        <div className='mx-3 sm:mx-auto'>  
+        <div>  
           <div className='flex justify-center pb-10'>
             <p className='font-spartan text-4xl sm:text-5xl'>Work Experiences</p>
           </div>
