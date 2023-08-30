@@ -6,9 +6,8 @@ export type WorkExperienceProps = {
 };
 
 const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperienceProps) => {
-  //TODO mobile support
     return (
-      <div tabIndex={0} className='font-roboto text-inherit collapse -lg:collapse-open mx-3 sm:mx-10 md:w-3/4 border-8 bg-black border-blue-950 text-primary-content focus:text-secondary-content:text-inherit rounded-box'>
+      <div tabIndex={0} className='font-roboto text-inherit collapse -lg:collapse-open mx-3 sm:mx-10 lg:w-3/4 border-8 bg-black border-blue-950 text-primary-content focus:text-secondary-content:text-inherit rounded-box'>
         <div className='collapse-title text-xl font-medium lg:hover:text-gray-500'>
           { props.title }
         </div> 
@@ -17,8 +16,7 @@ const WorkExperienceItem: React.FC<WorkExperienceProps> = (props: WorkExperience
           <br/>
           <div className='sm:flex sm:flex-row'>
             <p className='font-bold'>Tools Utilized: </p>
-            {/* <div className='-sm:grid -sm:grid-flow-row-dense -sm:grid-flow-col-dense'> */}
-            <div className=''>
+            <div className='sm:flex sm:flex-row -sm:grid -sm:grid-flow-row-dense -sm:grid-flow-col-dense -sm:justify-start'>
               {
                 props.tools.map((tool, index) => (
                     <div className='px-1' key={index}>
