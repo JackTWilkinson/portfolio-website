@@ -9,7 +9,7 @@ const NavButton: React.FC<NavButtonProps> = (props: NavButtonProps) => {
         >
             <details className="dropdown mb-32">
               <summary className="bg-slate-800 border-0 text-white btn">Navigation</summary>
-              <ul className='font-roboto p-2 shadow menu dropdown-content bg-slate-700 text-white rounded-box w-52'>
+              <ul className='mt-1 font-roboto p-2 shadow menu dropdown-content bg-slate-700 text-white rounded-box w-52'>
                 {[
                     ['Title', '#title'],
                     ['About', '#about'],
