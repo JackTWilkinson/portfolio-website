@@ -9,41 +9,38 @@ export type EducationProps = {
 };
 
 const EducationItem: React.FC<EducationProps> = (props: EducationProps) => {
-  // TODO regular support
-  // TODO mobile support
     return (
-      <div className='font-roboto [&>*]:sm:flex [&>*]:sm:justify-center mx-10 md:w-3/4 md:mx-auto'>
-        <div className='text-m md:text-xl font-medium'>
+      <div className='font-roboto m-auto'>
+        <div className='text-m md:text-xl font-medium flex justify-center'>
           { props.title } - { props.degree }
         </div> 
         <br/>
-        <div className='text-[16px] sm:text-[18px] [&>div]:flex [&>div]:sm:flex-row'> 
-          <div>
+        <div className='text-[16px] sm:text-[18px] flex flex-col sm:flex-row justify-center'> 
+          <div className='flex flex-row'>
             <p className='font-bold'> Dates Attended: </p>
-            {/* TODO put in a row */}
             <div>
               {
                 props.dates_attended.map((date, index) => (
-                  <p className='px-2' key={index}> { date } </p>
+                  <p className='px-0 m-auto sm:px-2' key={index}> { date } </p>
                 ))
               }
             </div>
           </div>
-          <div>
+          <div className='flex flex-row'>
             <p className='font-bold px-0 sm:px-3'> GPA: </p>
             <p>{ props.gpa == 0 ? 'Not Applicable' : props.gpa } </p>
           </div>
-          <div className='flex justify-center py-6 sm:py-0 sm:ml-auto sm:pr-5'>
+        </div>
+          <div className='flex justify-center py-6 sm:pt-6'>
             <a 
               role="button" 
               target="_blank" 
               href={ props.link } 
-              className='btn btn-wide btn-accent'
+              className='btn btn-sml btn-accent'
             >
               { props.title } homepage
             </a>
           </div>
-        </div>
       </div>
     );
 }

@@ -8,8 +8,7 @@ const EducationList: React.FunctionComponent<EducationListProps> = () => {
   const educationArray = Array.from(convertedList);
   
   return(
-        // <div className='mx-3 sm:w-3/4 sm:mx-auto'>  
-        <div className=''>  
+        <div className='mx-3 sm:mx-10 lg:w-3/4 lg:mx-auto'>  
           <div>
             <div className='flex justify-center pb-10'>
               <p className='font-spartan text-4xl sm:text-5xl'>Education</p>
