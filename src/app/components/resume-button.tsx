@@ -13,7 +13,7 @@ const ResumeButton: React.FC<ResumeProps> = (props: ResumeProps) => {
                 role='button' 
                 target="_blank"
                 rel="noopener noreferrer"
-                className='btn btn-neutral'
+                className='bg-slate-700 border-0 text-white btn btn-neutral'
             >
                 <DocumentIcon 
                     className='smart-hover-svg'

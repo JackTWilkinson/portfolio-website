@@ -1,6 +1,6 @@
 [{
     "title": "Software Engineer @ Principal Financial",
-    "description": "Developed in a multi-dimensional agile team responsible for multiple heavy-traffic products. Team responsibilities encompassed business-facing Salesforce dashboards, automated Java processes, and React-based frontend experiences. Performed code review to assure code quality and participated in new technology exploration and feedback in order to best satisfy business needs.",
+    "description": "Maintains heavy-traffic React and Salesforce applications used by multiple business units. Researches and designs new systems to fulfill open-ended problems faced by business stakeholders. Updates automated Java services utilized to process data and connect systems used by multiple business units. Tests and reviews peer code to ensure code quality and adherence to internal code standards",
     "tools": [
         "Java",
         "Salesforce",

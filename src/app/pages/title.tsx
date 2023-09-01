@@ -30,7 +30,7 @@ const Title: React.FunctionComponent<TitleProps> = () => {
                     </a>
                 </div>
                 <div className='px-3'>
-                    <a rel='noopener noreferrer' href='https://www.linkedin.com/in/jack-wilkinson-19491114b/' target='_blank'>
+                    <a rel='noopener noreferrer' href='https://www.linkedin.com/in/jackthomaswilkinson/' target='_blank'>
                         <LinkedinIcon 
                             className='smart-hover-svg'
                             height={50}
