@@ -4,7 +4,6 @@ import GitIcon from '../components/svg/git-icon';
 import LinkedinIcon from '../components/svg/linkedin-icon';
 
 const Title: React.FunctionComponent<TitleProps> = () => {
-// TODO get final review on text still need to do
     return(
         <div className='flex h-full justify-center items-center flex-col'>
             <div className='pb-4 pt-20'>
@@ -13,7 +12,7 @@ const Title: React.FunctionComponent<TitleProps> = () => {
             <div className='pb-4'>
                 <Image 
                     className='mask mask-hexagon-2'
-                    src='/static/professional-photo.png'
+                    src='/static/professional-photo.jpg'
                     width={300} 
                     height={300} 
                     alt='Picture of the dev'
