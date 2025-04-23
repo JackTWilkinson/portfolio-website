@@ -38,7 +38,7 @@ const EducationItem: React.FC<EducationProps> = (props: EducationProps) => {
               href={ props.link } 
               className='btn btn-sml btn-accent'
             >
-              { props.title } homepage
+              { props.title }
             </a>
           </div>
       </div>
