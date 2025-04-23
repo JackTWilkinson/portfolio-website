@@ -12,7 +12,7 @@ const Title: React.FunctionComponent<TitleProps> = () => {
             <div className='pb-4'>
                 <Image 
                     className='mask mask-hexagon-2'
-                    src='/static/professional-photo.jpg'
+                    src='/static/professional-photo.PNG'
                     width={300} 
                     height={300} 
                     alt='Picture of the dev'

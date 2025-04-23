@@ -1,30 +1,20 @@
 [{
     "title": "Software Engineer @ Principal Financial",
-    "description": "Maintains heavy-traffic React and Salesforce applications used by multiple business units. Researches and designs new systems to fulfill open-ended problems faced by business stakeholders. Updates automated Java services utilized to process data and connect systems used by multiple business units. Tests and reviews peer code to ensure code quality and adherence to internal code standards",
+    "description": "At Principal Financial Group, I played a key role in modernizing essential user-facing webpages by migrating them to React. This initiative not only improved the user experience but also significantly reduced technical debt and enhanced long-term maintainability. I also led research and system design initiatives within Salesforce to tackle complex, open-ended business challenges. Most notably I streamlined and automated workflows for contract sales cases. Additionally, I developed a scalable data-processing system using AWS Lambda and Python, which now powers Principal’s Qualified Student Loan Payment Match Program. This solution ensures efficient, reliable, and secure data handling at scale.",
     "tools": [
         "Java",
         "Salesforce",
-        "React"
+        "React",
+        "AWS",
+        "Python"
     ],
     "dates_worked": [
         "June 2022 - Current"
     ]
 },
 {
-    "title": "Web Developer @ Iowa State University",
-    "description": "Developed web applications for a variety of clients and departments at the University. Wrote and revised documentation to include best practices for new and existing tools and frameworks used by the department. Designed project proposals for departments at the university and headed teams built around product development and delivery.",
-    "tools": [
-        "Javascript",
-        "PHP",
-        "SQL"
-    ],
-    "dates_worked": [
-        "May 2019 - November 2019"
-    ]
-},
-{
     "title": "Software Engineering Intern @ Hy-Vee",
-    "description": "Maintained Hy-Vee’s fuel saver & rewards program and related systems. Developed and made changes to customer-facing applications that are still in use today. Added features to existing Hy-Vee APIs used to maintain application function.",
+    "description": "I worked closely with a development team to maintain and enhance the Fuel Saver & Rewards Program in a full-stack role, using React, Next.js, and Node.js. My contributions included implementing new features for both internal and external APIs, which directly supported key functionality across the app and website. I also helped analyze project requirements, translating them into organized tasks and team objectives to ensure efficient and aligned development efforts.",
     "tools": [
         "React",
         "Next.js",
@@ -37,8 +27,20 @@
     ]
 },
 {
+    "title": "Web Developer @ Iowa State University",
+    "description": "I developed and maintained university department webpages using PHP, JavaScript, SQL, and the Zend Framework, delivering robust and efficient web solutions tailored to departmental needs. In addition to technical work, I created and updated tutorials for new employees, improving onboarding materials to align with current best practices and streamline the training process.",
+    "tools": [
+        "Javascript",
+        "PHP",
+        "SQL"
+    ],
+    "dates_worked": [
+        "May 2019 - November 2019"
+    ]
+},
+{
     "title": "Teaching Assistant: Introduction to Object-Oriented Programming @ ISU",
-    "description": "Instructed and reinforced foundtional topics regarding Object-Oriented Programming through lab and office hour sessions. Graded and provided indepth feedback about code quality in homework assignments.",
+    "description": "I assisted in teaching and facilitating the Introduction to Object-Oriented Programming course by leading lab sessions, grading assignments, and supporting students in understanding core programming concepts and principles.",
     "tools": [
         "Java"
     ],
